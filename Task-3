@@ -3,7 +3,7 @@ pipeline {
     stages {  
             stage ('Git-Checkout') {  
                 steps{
-                    git branch; 'master', url: 'https://github.com/sumyak/CI-CD-Pipeline.git'
+                    git branch; 'master', url: 'https://github.com/shalu212/hello-world.git'
                     echo "Checkout successful";
                 } 
             }
