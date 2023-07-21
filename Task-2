@@ -1,7 +1,7 @@
 import boto3
 
-aws_access_key_id = 'AKIA57WCMSVPOHNN2ZAF'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 
 def create_cloudwatch_alarm(instance_id):
     client = boto3.client('cloudwatch', region_name='us-east-1', aws_access_key_id='AKIA57WCMSVPOHNN2ZAF', aws_secret_access_key='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')
